@@ -1,0 +1,32 @@
+{"timestamp":"2025-11-20T19:14:49.062051Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-20T19:14:49.062466Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-20T19:14:49.108930Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.109071Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.109185Z","level":"info","event":"Current task name:fetch_all_data","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.109235Z","level":"info","event":"Dag name:fetch_data","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738278Z","level":"info","event":"<class 'pandas.core.frame.DataFrame'>","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738460Z","level":"info","event":"RangeIndex: 10000 entries, 0 to 9999","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738539Z","level":"info","event":"Data columns (total 13 columns):","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738611Z","level":"info","event":" #   Column           Non-Null Count  Dtype","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738681Z","level":"info","event":"---  ------           --------------  -----","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738748Z","level":"info","event":" 0   CustomerId       10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738814Z","level":"info","event":" 1   Surname          10000 non-null  object","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738882Z","level":"info","event":" 2   CreditScore      10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738949Z","level":"info","event":" 3   Geography        10000 non-null  object","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739033Z","level":"info","event":" 4   Gender           10000 non-null  object","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739102Z","level":"info","event":" 5   Age              10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739169Z","level":"info","event":" 6   Tenure           10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739233Z","level":"info","event":" 7   Balance          10000 non-null  float64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739302Z","level":"info","event":" 8   NumOfProducts    10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739375Z","level":"info","event":" 9   HasCrCard        10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739440Z","level":"info","event":" 10  IsActiveMember   10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739504Z","level":"info","event":" 11  EstimatedSalary  10000 non-null  float64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739567Z","level":"info","event":" 12  Exited           10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739630Z","level":"info","event":"dtypes: float64(2), int64(8), object(3)","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739692Z","level":"info","event":"memory usage: 1015.8+ KB","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739757Z","level":"info","event":"Data uploaded!","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.739818Z","level":"info","event":" None","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.738423Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-20T19:14:49.757539Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.757892Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-20T19:14:49.758146Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_all_data>","logger":"task.stdout"}

@@ -1,0 +1,10 @@
+{"timestamp":"2025-11-16T21:04:21.228468Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-16T21:04:21.228942Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-16T21:04:21.349758Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-16T21:04:21.349942Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-16T21:04:21.350095Z","level":"info","event":"Current task name:fetch_all_data","logger":"task.stdout"}
+{"timestamp":"2025-11-16T21:04:21.350169Z","level":"info","event":"Dag name:fetch_data","logger":"task.stdout"}
+{"timestamp":"2025-11-16T21:04:23.036039Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-16T21:04:23.071457Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-16T21:04:23.071607Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-16T21:04:23.071851Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_all_data>","logger":"task.stdout"}

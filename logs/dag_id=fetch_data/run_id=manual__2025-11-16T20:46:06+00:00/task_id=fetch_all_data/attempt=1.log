@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-16T20:46:08.543946Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-16T20:46:08.544362Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-16T20:46:08.565286Z","level":"error","event":"Failed to resolve template field 'sql'","logger":"airflow.sdk.definitions._internal.templater","filename":"templater.py","lineno":100,"error_detail":[{"exc_type":"TemplateNotFound","exc_value":"'customers_table.sql' not found in search path: '/opt/airflow/dags'","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/definitions/_internal/templater.py","lineno":98,"name":"resolve_template_files"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py","lineno":209,"name":"get_source"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-11-16T20:46:08.586219Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-16T20:46:08.586353Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-16T20:46:08.586488Z","level":"info","event":"Current task name:fetch_all_data","logger":"task.stdout"}
+{"timestamp":"2025-11-16T20:46:08.586582Z","level":"info","event":"Dag name:fetch_data","logger":"task.stdout"}
+{"timestamp":"2025-11-16T20:46:09.310392Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-16T20:46:09.323239Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-16T20:46:09.323397Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-16T20:46:09.323551Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_all_data>","logger":"task.stdout"}

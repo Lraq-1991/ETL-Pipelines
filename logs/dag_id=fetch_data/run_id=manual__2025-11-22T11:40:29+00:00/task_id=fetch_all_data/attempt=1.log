@@ -1,0 +1,33 @@
+{"timestamp":"2025-11-22T11:40:34.797783Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-22T11:40:34.798216Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-22T11:40:34.946810Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:34.946929Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:34.947089Z","level":"info","event":"Current task name:fetch_all_data","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:34.947135Z","level":"info","event":"Dag name:fetch_data","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.840987Z","level":"info","event":"<class 'pandas.core.frame.DataFrame'>","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841128Z","level":"info","event":"RangeIndex: 10000 entries, 0 to 9999","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841178Z","level":"info","event":"Data columns (total 13 columns):","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841236Z","level":"info","event":" #   Column           Non-Null Count  Dtype","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841280Z","level":"info","event":"---  ------           --------------  -----","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841322Z","level":"info","event":" 0   CustomerId       10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841365Z","level":"info","event":" 1   Surname          10000 non-null  object","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841409Z","level":"info","event":" 2   CreditScore      10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841451Z","level":"info","event":" 3   Geography        10000 non-null  object","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841491Z","level":"info","event":" 4   Gender           10000 non-null  object","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841533Z","level":"info","event":" 5   Age              10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841573Z","level":"info","event":" 6   Tenure           10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841614Z","level":"info","event":" 7   Balance          10000 non-null  float64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841654Z","level":"info","event":" 8   NumOfProducts    10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841693Z","level":"info","event":" 9   HasCrCard        10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841732Z","level":"info","event":" 10  IsActiveMember   10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841772Z","level":"info","event":" 11  EstimatedSalary  10000 non-null  float64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841811Z","level":"info","event":" 12  Exited           10000 non-null  int64","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841850Z","level":"info","event":"dtypes: float64(2), int64(8), object(3)","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841890Z","level":"info","event":"memory usage: 1015.8+ KB","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841931Z","level":"info","event":"Data uploaded!","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.841977Z","level":"info","event":" None","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:35.863846Z","level":"info","event":"Done. Returned value was:       CustomerId    Surname  ...  EstimatedSalary Exited\n0       15634602   Hargrave  ...        101348.88      1\n1       15647311       Hill  ...        112542.58      0\n2       15619304       Onio  ...        113931.57      1\n3       15701354       Boni  ...         93826.63      0\n4       15737888   Mitchell  ...         79084.10      0\n...          ...        ...  ...              ...    ...\n9995    15606229   Obijiaku  ...         96270.64      0\n9996    15569892  Johnstone  ...        101699.77      0\n9997    15584532        Liu  ...         42085.58      1\n9998    15682355  Sabbatini  ...         92888.52      1\n9999    15628319     Walker  ...         38190.78      0\n\n[10000 rows x 13 columns]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-22T11:40:35.864152Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019aab5d-9de2-783e-ad92-4cb4d2ad46ef'), task_id='fetch_all_data', dag_id='fetch_data', run_id='manual__2025-11-22T11:40:29+00:00', try_number=1, dag_version_id=UUID('019aa2bc-8c9e-70bb-b9bf-87752c08b740'), map_index=-1, hostname='b0eb5b99b86f', context_carrier={}, task=<Task(PythonOperator): fetch_all_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 11, 22, 11, 40, 31, 429587, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1357}
+{"timestamp":"2025-11-22T11:40:36.049209Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:36.049368Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-22T11:40:36.049502Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_all_data>","logger":"task.stdout"}
